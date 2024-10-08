@@ -51,6 +51,13 @@ The development of the pop-ups followed best practices, ensuring high performanc
 - **Responsive Design**: The pop-ups were designed to adjust smoothly across various screen sizes and devices.
 - **Clean Code Structure**: The code was organized in a modular fashion, with clear separation between components, making it easier to maintain and extend.
 - **Manual Animation Creation**: All icons and GIF animations were hand-drawn by me using Photoshop, ensuring a unique and artistic touch.
+[BTS Video](https://drive.google.com/uc?export=download&id=1K6usSvm7AQd_VvDBG67mUoJz1ucdaT3t)
+
+<!-- Or if HTML is supported -->
+<video width="640" height="480" controls>
+  <source src="https://drive.google.com/uc?export=download&id=1K6usSvm7AQd_VvDBG67mUoJz1ucdaT3t" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
