@@ -58,4 +58,4 @@ The development of the pop-ups followed best practices, ensuring high performanc
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/repository-name.git
+   git clone https://github.com/abdellahiheiballa/Full-Page-Popup-Project
