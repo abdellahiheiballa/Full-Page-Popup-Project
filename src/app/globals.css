@@ -1,42 +1,60 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffffff;
+	--foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+	max-width: 100vw;
+	overflow-x: hidden;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	color: var(--foreground);
+	background: var(--background);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: "Shentox", sans-serif;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+	html {
+		color-scheme: dark;
+	}
+}
+
+/* Corrected font-face for Shentox Bold */
+/* @font-face {
+	font-family: "Shentox";
+	src: url("/fonts/Shentox-Bold.woff2") format("woff2"),
+		url("/fonts/Shentox-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+} */
+
+/* Corrected font-face for Shentox Regular */
+@font-face {
+	font-family: "Shentox2";
+	src: url("/fonts/Shentox-Bold.woff2") format("woff"),
+		url("/fonts/Shentox-Bold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }

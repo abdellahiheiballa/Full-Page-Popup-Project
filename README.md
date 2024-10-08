@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Full Page Popup Project Documentation
 
-## Getting Started
+## Abdellahi Heiballa
+- **Position**: Software Engineer
+- **Email**: [abdellahmedlemine@gmail.com](mailto:abdellahmedlemine@gmail.com)
+- **Phone**: +971 581388522
+- **Location**: Dubai, United Arab Emirates
+- **LinkedIn**: [linkedin.com/in/abdellahiheiballa](https://linkedin.com/in/abdellahiheiballa)
+- **GitHub**: [github.com/abdellahiheiballa](https://github.com/abdellahiheiballa)
+- **Portfolio**: [www.abdellahiart.com](http://www.abdellahiart.com)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is a response to the front-end developer position test at INFINITE8. The goal was to design two celebration pop-ups with animations to be triggered when users reach specific milestones on the website. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Task Requirements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Pop-Up 1: Full-Page Celebration with XP Bar**
+   - A full-page pop-up celebrating user level-ups.
+   - Features an animation of an XP bar filling up.
+   - Introduces a new badge with smooth animations.
+   - Fully responsive and immersive experience across all devices.
 
-## Learn More
+2. **Pop-Up 2: Compact Celebration for Rewards**
+   - A smaller pop-up showing rewards earned by the user.
+   - Focuses on animations highlighting unlocked rewards without an XP bar.
+   - Provides a quick, engaging celebration moment while being fully responsive.
 
-To learn more about Next.js, take a look at the following resources:
+### Technical Requirements
+- Built using **Next.js**, the framework of choice for INFINITE8.
+- Utilizes open-source libraries for enhancing user experience.
+- Clean, well-structured, and scalable codebase.
+- Fully responsive design for both web and mobile platforms.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tools Used
+- **Framework**: Next.js
+- **Animations**: Framer Motion for smooth animations.
+- **Styling**: Chakra UI for responsive design.
+- **Graphics**: Hand-drawn GIFs created using Adobe Photoshop animation tools.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development Approach
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The development of the pop-ups followed best practices, ensuring high performance and maintainability:
+
+- **Responsive Design**: The pop-ups were designed to adjust smoothly across various screen sizes and devices.
+- **Clean Code Structure**: The code was organized in a modular fashion, with clear separation between components, making it easier to maintain and extend.
+- **Manual Animation Creation**: All icons and GIF animations were hand-drawn by me using Photoshop, ensuring a unique and artistic touch.
+
+---
+
+## How to Run the Project Locally
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/username/repository-name.git
