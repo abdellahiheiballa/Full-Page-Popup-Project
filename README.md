@@ -61,8 +61,43 @@ The development of the pop-ups followed best practices, ensuring high performanc
 
 ---
 
-## How to Run the Project Locally
+## How to Run the Project
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/abdellahiheiballa/Full-Page-Popup-Project
+   git clone https://github.com/abdellahiheiballa/Full-Page-Popup-Project.git
+   cd Full-Page-Popup-Project
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+   or if you're using Yarn:
+   ```bash
+   yarn install
+   ```
+
+3. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+   or with Yarn:
+   ```bash
+   yarn dev
+   ```
+
+4. **Open the Application**:
+   Navigate to `http://localhost:3000` in your web browser.
+
+5. **Testing the Pop-ups**:
+   Interact with your application to test the celebration pop-ups.
+
+---
+
+## Tools Used
+
+- **Next.js**: A React framework for building server-side rendered applications.
+- **Chakra UI**: A modular React component library that provides accessible and customizable UI components.
+- **Framer Motion**: A library for creating animations in React applications.
+- **Git**: Version control system to manage code changes.
